@@ -1,6 +1,5 @@
 from read_m5_class import m5logger
 import serial, sys
-import syslog
 import time
 
 logger1=m5logger()
