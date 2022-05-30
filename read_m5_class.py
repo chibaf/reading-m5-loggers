@@ -13,5 +13,5 @@ class m5logger:
       try:
         data1.append(float(data[i+2]))
       except IndexError:
-        rteturn [0.0]*10
+        return [0.0]*10
     return data1
